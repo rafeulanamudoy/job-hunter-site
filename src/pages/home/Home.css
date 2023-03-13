@@ -1,0 +1,35 @@
+.home-container {}
+
+.banner-slide-container>img {
+
+    width: 100%;
+    height: calc(100vh - 126px);
+    object-fit: cover;
+
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+
+.swiper-button-prev {
+    background-image: url("../../utiltites/Images/arrow-left.jpg");
+    width: 40px;
+    height: 40px;
+}
+
+.swiper-button-next {
+    background-image: url("../../utiltites/Images/arrow-right.jpg");
+
+}
+
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    display: none;
+}
